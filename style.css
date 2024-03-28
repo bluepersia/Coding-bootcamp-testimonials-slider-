@@ -36,6 +36,14 @@ body {
     box-sizing: border-box;
 }
 
+.slider.slide
+{
+    animation-name: slide;
+    animation-duration: 600ms;
+    animation-timing-function: ease-in-out;
+}
+
+
 .slider_img-wrapper {
     padding: 1.66em 10.7% 1.38em 11%;
     background-image: url(./images/pattern-bg.svg);
@@ -165,12 +173,7 @@ body {
     }
 
     
-    .slider.slide
-    {
-        animation-name: slide;
-        animation-duration: 600ms;
-        animation-timing-function: ease-in-out;
-    }
+ 
 
     @keyframes slide {
         0%{

@@ -126,6 +126,18 @@ body {
  }
 
 
+ @keyframes slide {
+    0%{
+        opacity: 100%;
+    }
+    50% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
  @media (min-width: 1440px)
  {
     .slider 
@@ -175,17 +187,6 @@ body {
     
  
 
-    @keyframes slide {
-        0%{
-            opacity: 100%;
-        }
-        50% {
-            opacity: 0%;
-        }
-
-        100% {
-            opacity: 100%;
-        }
-    }
+   
     
  }

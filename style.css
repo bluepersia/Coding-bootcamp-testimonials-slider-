@@ -1,0 +1,25 @@
+:root 
+{
+    --color-1: hsl(240, 38%, 20%);
+    --color-2: hsl(240, 18%, 77%);
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    min-height: 100vh;
+}
+
+
+.slider 
+{
+    font-family:  "Inter", sans-serif;
+    color: var(--color-1);
+}
+
+.slider, .slider * {
+    margin: 0;
+    box-sizing: border-box;
+}
